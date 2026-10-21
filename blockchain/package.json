@@ -1,0 +1,13 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Smart contract per il progetto BigData",
+  "scripts": {
+    "migrate": "truffle migrate --network development",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "truffle": "^5.9.0",
+    "wait-for-it": "^1.0.0"
+  }
+}
